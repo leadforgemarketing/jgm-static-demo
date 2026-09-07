@@ -48,6 +48,12 @@ npx wrangler@latest deploy
 
 `wrangler.toml` points `[assets].directory` at `./public`, uses `html_handling = "auto-trailing-slash"`, and `not_found_handling = "404-page"`.
 
+A temporary Workers preview from this work:
+
+https://jgm-static-demo.diamond-rainforest.workers.dev
+
+Claim that preview (60-minute window from deploy) at the Cloudflare claim URL printed by `wrangler deploy --temporary`. A named `wrangler deploy` needs a `CLOUDFLARE_API_TOKEN` in the environment.
+
 ## Notes
 
 - Images are hotlinked from James’s WordPress uploads.
